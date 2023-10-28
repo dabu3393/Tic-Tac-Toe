@@ -23,30 +23,27 @@ https://github.com/dabu3393/Tic-Tac-Toe/assets/97137252/5f6a0eb1-e471-4ab4-b509-
 
 ## Getting Started
 
-The PDF to Audiobook Converter is a user-friendly Python application that enables users to effortlessly transform PDF documents into audio files. It serves as a handy tool for converting text-based content from PDFs into MP3 audio files, effectively creating audiobooks that are accessible on the go.
+The Tic Tac Toe Game is a Python command-line application that allows one player to play the classic Tic Tac Toe game against a computer. It features a simple and interactive interface for an enjoyable gaming experience.
 
 ## Key Features
 
-- **User-Friendly Interface**: The application offers a simple and intuitive graphical user interface, making it easy for users to select PDF files and convert them into audiobooks with just a few clicks.
+- **Interactive Gameplay**: Play Tic Tac Toe with a friend in a turn-based fashion. Each player takes turns to make their move.
 
-- **Seamless PDF Selection**: Users can select the PDF file they wish to convert using a built-in file dialog. The chosen PDF file is displayed on the interface for easy reference.
+- **Clear Board Display**: The game provides a clean and easy-to-read representation of the game board, allowing players to see the current state of the game at a glance.
 
-- **Google Cloud Text-to-Speech**: The converter leverages the power of the Google Cloud Text-to-Speech API to synthesize high-quality audio from the text content extracted from the PDF.
+- **Win Detection**: The game automatically detects when a player has won the game and announces the winner.
 
-- **Customizable Audiobooks**: The application allows users to choose from a variety of voice options, languages, and audio encoding settings to customize their audiobooks according to their preferences.
+- **Tie Detection**: The game checks for a tie when the board is full, and it declares the game as a tie if neither player wins.
 
-- **Download to Local Directory**: The resulting MP3 audiobook is saved in the user's local "Downloads" directory for convenient access.
-
-- **Clear User Feedback**: The application provides clear feedback about the conversion process and displays a success message upon the successful creation of the audiobook.
+- **Computer Opponent**: The game includes a computer opponent that you can play against. The computer opponent makes strategic moves to challenge you.
 
 ## Usage
 
-1. Open the application.
-2. Click the "Select PDF" button to choose a PDF file for conversion.
-3. Click the "Convert" button to start the conversion process.
-4. The resulting audiobook is saved to your local "Downloads" directory.
+1. Run the tic_tac_toe.py script to start the game.
+2. Players take turns to input their moves by specifying the row (0, 1, or 2) and the column (0, 1, or 2) where they want to place their symbol.
+3. The game will automatically detect the winner or announce a tie when the game ends.
 
 ## Required Downloads
 I have included a requirements.txt, which you should download in your virtual environment.
 
-[Requirements](https://github.com/dabu3393/Convert-PDF-to-Audiobook/blob/main/requirements.txt)
+[Requirements](https://github.com/dabu3393/Tic-Tac-Toe/blob/main/requirements.txt)
